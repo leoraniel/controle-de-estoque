@@ -1,0 +1,14 @@
+body{
+    width:400px;
+    text-align:center;
+    margin:auto;
+    margin-top:20px;
+    background-image: url('../img/estoque.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+ul,h1{
+    list-style-type: none;
+    border: black solid 2px;
+    background-color: steelblue;
+    color: white;}

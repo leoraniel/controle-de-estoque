@@ -33,6 +33,7 @@ function estoque() {
         else{
             produtos = JSON.parse(produtos);
             produtos.forEach(produto => {
+                document.write("<link rel='stylesheet' href='assets/estoque.css'>")
                 document.write("<ul>");
                 document.write("<li>Nome do produto: "+produto.nome+"</li>");
                 document.write("<li>Codigo do produto: "+produto.codigo+"</li>");
