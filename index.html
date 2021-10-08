@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="assets/script.js"></script>
+        <link rel="stylesheet" href="assets/css.css">
+    </head>
+    <body>
+        <form>
+            <table>
+                <caption>Cadastrar novo item</caption>
+                <tr>
+                    <td class="NomeProd">Nome do produto: </td>
+                    <td><input id="txtNome" type="text"> </td>
+                </tr>
+                <tr>
+                    <td class="CodProd">Codigo do produto: </td>
+                    <td><input id="txtCod" type="text"> </td>
+                </tr>
+                <tr>
+                    <td class="QntdProd">Quantidade do produto: </td>
+                    <td>
+                        <select id="Qntdd">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="button" value="Inserir" class="Btns" onclick="cadProduto('txtNome','txtCod','Qntdd')">
+                        <input type="button" value="Estoque" class="Btns" onclick="window.open('verEstoque.html','_self')">
+                        <input type="reset" value="Limpar" class="Btns">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
